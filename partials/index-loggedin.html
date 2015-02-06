@@ -1,0 +1,922 @@
+
+<div class="container">
+
+<div class="row">
+
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 panel panel-info">
+
+ <div class="panel-heading">
+
+ Function
+ </div>
+ 
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="/#/#download" aria-controls="download" role="tab" data-toggle="tab">Download</a></li>
+    <li role="presentation"><a href="/#/#multiserver" aria-controls="multiserver" role="tab" data-toggle="tab">Multi server download</a></li>
+    <li role="presentation"><a href="/#/#playvidasdownload" aria-controls="playvidasdownload" role="tab" data-toggle="tab">Play video as downloading</a></li>
+    <li role="presentation"><a href="/#/#proxydownloading" aria-controls="proxydownloading" role="tab" data-toggle="tab">Proxy downloading</a></li>
+        <li role="presentation"><a href="/#/#vidgrab" aria-controls="vidgrab" role="tab" data-toggle="tab">Video grabber</a></li>
+  </ul>
+ <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="download"> 
+ <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Enter link</label>
+    <textarea type="email" class="form-control" id="links" placeholder="1 link 1 line"></textarea>
+  </div>
+  
+</form>
+<form class="form-inline">
+
+    <div class="form-group" dropzone="" webkitdropzone >
+        <input type="file" id="files" name="files[]" multiple mozdirectory="" webkitdirectory="" directory="" />
+      </div>
+
+  <div class="form-group">
+    <select class="form-control">
+          <option>Or choose your category</option>
+          <option>General</option>
+          <option>Music</option>
+          <option>Picture</option>
+          <option>Video</option>
+          <option>Game</option>
+          <option>Secret</option>
+     </select>
+
+  </div>
+  
+  <div class="form-group">
+  
+    <input type="text"  placeholder="Limit speed" /> KBs/second 
+    
+  </div>
+  
+
+ 
+</form>
+ 
+ <p></p>   
+  
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" id="toggleElement1" name="toggle1" onchange="toggleStatus1()" > Use proxy
+    </label>
+  </div>
+    <form id="elementsToOperateOn1" class="form-inline">
+  <div class="form-group">
+      <input type="text" disabled placeholder="Proxy server address"/>
+  </div>
+  
+  <div class="form-group">
+      <input type="text" disabled placeholder="Port"/>
+  </div>
+  
+  <div class="form-group">
+      <input type="text" disabled placeholder="User name"/>
+  </div>
+
+ <div class="form-group">
+      <input type="text" disabled placeholder="Password"/>
+  </div>
+  
+   <strong>Protocol: </strong>
+    <label>
+      <input type="checkbox" disabled > http
+    </label>
+    
+    <label>
+      <input type="checkbox" disabled > https
+    </label>
+    
+    <label>
+      <input type="checkbox" disabled > fpt
+    </label>
+
+  
+</form>
+
+<p></p>
+  <div class="form-group">
+    <button type="submit" class="btn btn-ie">Add link</button>
+  </div>
+
+  <br />
+        </div>
+        
+        
+          <div role="tabpanel" class="tab-pane" id="multiserver">
+          
+                          <div id='TextBoxesGroup'>
+    <div id="TextBoxDiv1">
+        <label>Textbox #1 : </label><input type='textbox' id='textbox1' >
+    </div>
+</div>
+<input type='button' value='Add Button' id='addButton'>
+<input type='button' value='Remove Button' id='removeButton'>
+<input type='button' value='Get TextBox Value' id='getButtonValue'>
+  
+          
+          
+          </div>
+          
+          
+    <div role="tabpanel" class="tab-pane" id="playvidasdownload">
+    
+                <form role="form">
+                
+        
+                
+          <div class="form-group">
+            <label for="exampleInputEmail1">Enter link</label>
+            <textarea type="email" class="form-control" id="links" placeholder="Direct video link"></textarea>
+          </div>
+          
+            </form>
+          
+          <form class="form-inline">
+                  <div class="form-group">
+        <input type="file" name="files[]" multiple="" mozdirectory="" webkitdirectory="" directory="">
+      </div>
+
+  <div class="form-group">
+    <select class="form-control">
+          <option>Or choose your category</option>
+          <option>General</option>
+          <option>Music</option>
+          <option>Picture</option>
+          <option>Video</option>
+          <option>Game</option>
+          <option>Secret</option>
+     </select>
+
+  </div>
+          <div class="form-group">
+  
+    <input type="text"  placeholder="Limit speed" /> KBs/second 
+    
+            </div>
+          
+           
+           </form>
+           
+           <!--
+                             <div class="checkbox">
+                    <label>
+                      <input type="checkbox" id="toggleElement3" name="toggle1" onchange="toggleStatus3()" > Use proxy
+                    </label>
+                  </div>
+                    <form id="elementsToOperateOn3" class="form-inline">
+                  <div class="form-group">
+                      <input type="text" disabled placeholder="Proxy server address"/>
+                  </div>
+                  
+                  <div class="form-group">
+                      <input type="text" disabled placeholder="Port"/>
+                  </div>
+                  
+                  <div class="form-group">
+                      <input type="text" disabled placeholder="User name"/>
+                  </div>
+                
+                 <div class="form-group">
+                      <input type="text" disabled placeholder="Password"/>
+                  </div>
+                  
+                   <strong>Protocol: </strong>
+                    <label>
+                      <input type="checkbox" disabled > http
+                    </label>
+                    
+                    <label>
+                      <input type="checkbox" disabled > https
+                    </label>
+                    
+                    <label>
+                      <input type="checkbox" disabled > fpt
+                    </label>
+                
+                  
+                </form>
+                -->
+                <p></p>
+           <button class="btn btn-stripe">
+                                    Download and play
+              
+           </button>
+           
+           
+           <p></p>
+          <center>      
+                          
+                    <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered"
+              controls preload="auto" width="640" height="340"
+              poster="http://video-js.zencoder.com/oceans-cliap.png"
+              data-setup='{"example_option":true}'>
+             <source src="https://r6---sn-42u-nbor.googlevideo.com/videoplayback?ms=au&expire=1420708097&source=youtube&mv=m&ip=42.117.27.35&requiressl=yes&ratebypass=yes&sparams=dur%2Cid%2Cinitcwndbps%2Cip%2Cipbits%2Citag%2Cmime%2Cmm%2Cms%2Cmv%2Cratebypass%2Crequiressl%2Csource%2Cupn%2Cexpire&mime=video%2Fmp4&id=o-ACNOGs_MkjXwTla0X47ml95G7lekexclblZ1KIkpaloR&mm=31&mt=1420686429&ipbits=0&itag=22&key=yt5&sver=3&initcwndbps=1438750&fexp=900718%2C912332%2C927622%2C929305%2C932404%2C938628%2C9405685%2C9405921%2C941004%2C942620%2C943917%2C947209%2C947218%2C947225%2C948124%2C948531%2C952302%2C952605%2C952901%2C955301%2C957103%2C957105%2C957201%2C959701&dur=116.169&signature=DF2B025B538B24FAAE9994A1D625B33BD8E8B711.DB28DFEF23AD4899D6BB76D0DF22E498C18B18E1&upn=h4vgmbxtgQU&ir=1&rr=12" type='video/mp4' />
+             <source src="---[HD][Vietsub][Kara] H?n ý?c b? công anh - Jay Chou.mp4" type='video/webm' />
+             <source src="---[HD][Vietsub][Kara] H?n ý?c b? công anh - Jay Chou.mp4" type='video/ogg' />
+             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                     </video>    
+                     
+           </center>       
+           <p></p>   
+                 
+            
+   </div>
+              <div role="tabpanel" class="tab-pane" id="proxydownloading">.f..</div>
+                <div role="tabpanel" class="tab-pane" id="vidgrab">..s.</div>
+        
+        
+ </div> 
+  
+  <!--
+  <form role="form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Enter cookies</label>
+    <textarea type="email" class="form-control" id="links" placeholder="Paste cookies"></textarea>
+  </div>
+  
+  
+  
+  
+</form>
+  -->
+  
+
+ <!--
+ <blockquote> 
+		<p>Choose cookies</p>			
+		</blockquote>
+ 
+  <div class="form-group">
+	<select multiple class="form-control">
+				<option>Cookles 1</option>
+				<option>Cookies 2</option>
+				<option>Cookies 3</option>
+				<option>Cookies 4</option>
+				<option>Cookies 5</option>
+	</select>
+    <br />
+  </div>
+ -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</div>
+
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 panel panel-info" id="options">
+
+ <div class="panel-heading">
+ Process
+ </div>
+<ul class="nav nav-tabs">
+  <li class="active"><a href="/#/#dprocess" data-toggle="tab">Download</a></li>
+  <li><a href="/#/#config" data-toggle="tab">Config</a></li>
+    <li><a href="/#/#history" data-toggle="tab">History</a></li>  
+</ul>
+
+
+<div class="tab-content">
+  <div class="tab-pane active" id="dprocess">
+  
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <p></p>
+                <span>
+            <strong>Task 1 (<span>11GB</span>)</strong>
+            
+            <form class="form-inline pull-right">
+          <div class="form-group">
+  
+    <input type="text"  placeholder="Limit speed" /> KBs/second 
+    
+            </div>
+          
+           <button class="btn  btn-macstore-inversed btn-sm">
+                                    Apply
+              
+           </button>
+           </form>
+           
+                <button type="button" class="btn btn-default btn-xs " aria-label="Delete link">
+                     <span class="glyphicon glyphicon glyphicon-remove" ></span>
+                </button>
+                <button type="button" class="btn btn-default btn-xs " aria-label="Pause process">
+                     <span class="glyphicon  glyphicon glyphicon-pause" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default btn-xs " aria-label="Stop process">
+                     <span class="glyphicon glyphicon glyphicon-stop" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default btn-xs " aria-label="Resume process">
+                     <span class="glyphicon glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                </button>
+                <p></p>
+                 </span>
+                 
+            <strong>Speed: <span>10</span>Mb/s </strong>
+            <p><strong>Remain: <span>4000mb</span>(<span>00</span>h<span>10</span>m<span>11</span>s)</strong></p>     
+            <div class="progress">
+                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                     60%
+                </div>
+               
+            </div>
+            
+  
+                        
+            <button class="btn btn-ie btn-sm" type="button" data-toggle="collapse" data-target="#details1" aria-expanded="false" aria-controls="collapseExample">
+                  View details
+                </button>
+                <div class="collapse" id="details1">
+                  <div class="well">
+                        <table class="table">
+                          
+                          <thead>
+                            <tr>
+                              <th>#</th>
+                              <th>Downloaded</th>
+                              <th>Info</th>
+                              
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Recieving data</span></td>
+                              
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Recieving data</span></td>
+                              
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Recieving data</span></td>
+                              
+                            </tr>
+                            
+                            <tr>
+                              <th scope="row">4</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Stop</span></td>
+                              
+                            </tr>
+                          </tbody>
+                        </table>
+                  </div>
+            
+        </div> 
+            
+            
+            
+        </div> 
+        
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <p></p>
+                <span>
+            <strong>Task 2</strong>
+            
+            <form class="form-inline pull-right">
+          <div class="form-group">
+  
+    <input type="text"  placeholder="Limit speed" /> KBs/second 
+    
+            </div>
+          
+           <button class="btn  btn-macstore-inversed btn-sm">
+                                    Apply
+              
+           </button>
+           </form>
+            
+            
+                <button type="button" class="btn btn-default btn-xs " aria-label="Delete link">
+                     <span class="glyphicon glyphicon glyphicon-remove" ></span>
+                </button>
+                <button type="button" class="btn btn-default btn-xs " aria-label="Pause process">
+                     <span class="glyphicon  glyphicon glyphicon-pause" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default btn-xs " aria-label="Stop process">
+                     <span class="glyphicon glyphicon glyphicon-stop" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default btn-xs " aria-label="Resume process">
+                     <span class="glyphicon glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                </button>
+                <p></p>
+                 </span>
+                  <strong>Speed: <span>10</span>Mb/s </strong>
+            <p><strong>Remain: <span>4000mb</span>(<span>00</span>h<span>10</span>m<span>11</span>s)</strong></p>     
+                 
+            <div class="progress">
+                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                     60%
+                </div>
+               
+            </div>
+                        
+            <button class="btn btn-ie btn-sm" type="button" data-toggle="collapse" data-target="#details2" aria-expanded="false" aria-controls="collapseExample">
+                  View details
+                </button>
+                <div class="collapse" id="details2">
+                  <div class="well">
+                        <table class="table">
+                          
+                          <thead>
+                            <tr>
+                              <th>#</th>
+                              <th>Downloaded</th>
+                              <th>Info</th>
+                              
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Recieving data</span></td>
+                              
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Recieving data</span></td>
+                              
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Recieving data</span></td>
+                              
+                            </tr>
+                            
+                            <tr>
+                              <th scope="row">4</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Stop</span></td>
+                              
+                            </tr>
+                          </tbody>
+                        </table>
+                  </div>
+            
+        </div> 
+            
+            
+            </div>
+
+        
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <p></p>
+                <span>
+            <strong>Task 3</strong>
+            
+            <form class="form-inline pull-right">
+          <div class="form-group">
+  
+    <input type="text"  placeholder="Limit speed" /> KBs/second 
+    
+            </div>
+          
+           <button class="btn  btn-macstore-inversed btn-sm">
+                                    Apply
+              
+           </button>
+           </form>
+            
+                <button type="button" class="btn btn-default btn-xs " aria-label="Delete link">
+                     <span class="glyphicon glyphicon glyphicon-remove" ></span>
+                </button>
+                <button type="button" class="btn btn-default btn-xs " aria-label="Pause process">
+                     <span class="glyphicon  glyphicon glyphicon-pause" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default btn-xs " aria-label="Stop process">
+                     <span class="glyphicon glyphicon glyphicon-stop" aria-hidden="true"></span>
+                </button>
+                <button type="button" class="btn btn-default btn-xs " aria-label="Resume process">
+                     <span class="glyphicon glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                </button>
+                <p></p>
+                 </span>
+                 
+                  <strong>Speed: <span>10</span>Mb/s </strong>
+            <p><strong>Remain: <span>4000mb</span>(<span>00</span>h<span>10</span>m<span>11</span>s)</strong></p>     
+                 
+            <div class="progress">
+                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                     60%
+                </div>
+               
+            </div>
+            
+            
+                        
+            <button class="btn btn-ie btn-sm" type="button" data-toggle="collapse" data-target="#details3" aria-expanded="false" aria-controls="collapseExample">
+                  View details
+                </button>
+                <div class="collapse" id="details3">
+                  <div class="well">
+                        <table class="table">
+                          
+                          <thead>
+                            <tr>
+                              <th>#</th>
+                              <th>Downloaded</th>
+                              <th>Info</th>
+                              
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Recieving data</span></td>
+                              
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Recieving data</span></td>
+                              
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Recieving data</span></td>
+                              
+                            </tr>
+                            
+                            <tr>
+                              <th scope="row">4</th>
+                              <td><span>10000</span>Kb</td>
+                              <td><span>Stop</span></td>
+                              
+                            </tr>
+                          </tbody>
+                        </table>
+                  </div>
+            
+        </div> 
+            
+</div>
+
+
+  </div>
+  
+  <div class="tab-pane" id="config">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	   <p></p>
+       <strong>Category</strong>
+       
+  
+                    
+ 
+    
+
+ 
+
+  
+  
+
+       
+       
+       <p></p>
+       <form class="form-inline">
+  <div class="form-group">
+    <select class="form-control">
+          <option>General</option>
+          <option>Music</option>
+          <option>Picture</option>
+          <option>Video</option>
+          <option>Game</option>
+          <option>Secret</option>
+                    </select>
+
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-ie">Edit your category</button>
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-ycombinator">Add more category</button>
+  </div>
+  
+  <div class="form-group">
+    <button type="submit" class="btn btn-html5">Delele category</button>
+  </div>
+  
+</form>
+
+<p></p>
+<strong>Number of conection</strong>
+       <p></p>
+       <form class="form-inline">
+  <div class="form-group">
+    <select class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>4</option>
+          <option>8</option>
+          <option>16</option>
+          <option>24</option>
+          <option>32</option>
+                    </select>
+
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-ie">Apply</button>
+  </div>
+
+  
+  
+</form>
+
+<p></p>
+<strong>Limit download speed</strong>
+<select class="pull-right">
+                          
+                          <option>All task</option>
+                          <option>Task 1</option>
+                          <option>Task 2</option>
+                          <option>Task 3</option>
+                          <option>Task 4</option>
+                          <option>Task 5</option>
+                          <option>Task 6</option>
+                    </select>
+       <p></p>
+       <form class="form-inline">
+  <div class="form-group">
+    <input type="text" value="0" placeholder="Type 0 to return to default" /> KBs/second 
+    
+  </div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-ie">Apply</button>
+  </div>
+
+  
+  
+</form>
+
+<p></p>
+<strong>Limit download</strong>
+       <p></p>
+       <form class="form-inline ">
+  <div class="checkbox">
+    <label>
+      <input type="checkbox" id="toggleElement" name="toggle" onchange="toggleStatus()" > Download limit
+    </label>
+  </div>
+  <div class="form-group" id="elementsToOperateOn">
+      <input type="text" disabled/> MB every   <input type="text" disabled /> hours
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-ie">Apply</button>
+  </div>
+  
+</form>
+
+<p></p>
+
+<strong>Proxy</strong>
+       <p></p>
+       <form class="form-inline" id="elementsToOperateOn2">  
+       <label>
+      <input type="checkbox" id="toggleElement2" name="toggle" onchange="toggleStatus2()" > Use proxy
+    </label>
+       
+  <div class="form-group">
+      <input type="text" placeholder="Proxy server address" disabled/>
+  </div>
+  
+  
+  
+  <div class="form-group">
+      <input type="text"  placeholder="Port" disabled/>
+  </div>
+  
+  <div class="form-group">
+      <input type="text"  placeholder="User name" disabled/>
+  </div>
+
+ <div class="form-group">
+      <input type="text" placeholder="Password" disabled/>
+  </div>
+  
+   <strong>Protocol: </strong>
+    <label>
+      <input type="checkbox" disabled > http
+    </label>
+    
+    <label>
+      <input type="checkbox" disabled > https
+    </label>
+    
+    <label>
+      <input type="checkbox"disabled > fpt
+    </label>
+    
+     <div class="form-group">
+    <button type="submit" class="btn btn-ie">Apply</button>
+  </div>
+  
+</form>
+<p></p>
+    	    </div>
+  
+
+		
+  </div>
+  
+  <div class="tab-pane" id="history">
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+    <div class="col-lg-4 col-md-5 col-sm-4  col-xs-12">      
+ <div class="navbar navbar-default" role="tablist navigation">
+  <div class="container-fluid">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <!-- Be sure to leave the brand out there if you want it shown -->
+   <a class="navbar-brand hidden-lg  hidden-md hidden-sm custom-nav" href="#help-help-content">Category</a>
+    </div>
+
+    
+    <!-- Place everything within .navbar-collapse to hide it until above 768px -->
+    <div class="collapse navbar-collapse" id="navigation2">
+  
+    
+     <ul class="nav nav-pills nav-stacked">
+  <li role="presentation" class="disabled hidden-xs"><a href="#">Category</a></li>
+      <li role="presentation" class=""><a href="/#/#showall"  aria-controls="home" role="tab" data-toggle="tab">Show all</a></li>
+      <li role="presentation"><a href="/#/#general" aria-controls="home" role="tab" data-toggle="tab">General</a></li>
+      <li role="presentation"><a href="/#/#music" aria-controls="home" role="tab" data-toggle="tab">Music</a></li>
+      <li role="presentation"><a href="/#/#picture" aria-controls="home" role="tab" data-toggle="tab">Picture</a></li>
+      <li role="presentation"><a href="/#/#video" aria-controls="home" role="tab" data-toggle="tab">Video</a></li>
+      <li role="presentation"><a href="/#/#game" aria-controls="home" role="tab" data-toggle="tab">Game</a></li>
+      <li role="presentation"><a href="/#/#secret" aria-controls="home" role="tab" data-toggle="tab">Secret</a></li>
+    </ul>
+   
+
+   
+      
+    </div><!-- /.nav-collapse -->
+  </div><!-- /.container -->
+</div><!-- /.navbar -->           
+ 
+     </div>         
+        
+        
+         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 panel-heading" > 
+ 
+                <div class="tab-content">   
+            <div role="tabpanel" class="tab-pane active" id="showall">
+                <h2 class="a">Show All</h2>
+                                <table class="table">
+                      
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th>File name</th>
+                          <th>Status</th>
+                          <th>Date</th>
+                          <th>Size</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Doraemon Stand by me.mp4
+                                    <div class="btn-group">
+                                      <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                        <span class="caret"></span>
+                                      </button>
+                                      <ul class="dropdown-menu" role="menu">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Open</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Redownload</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Stop</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Pause</a></li> 
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Remove</a></li>      
+                                      </ul>
+                                    </div>
+                          </td>
+                          <td>Success</td>
+                          <td>12/12/14</td>
+                          <td>1.96GB</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                          <td>@mdo</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>Larry</td>
+                          <td>the Bird</td>
+                          <td>@twitter</td>
+                          <td>@mdo</td>
+                        </tr>
+                      </tbody>
+                    </table>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="general">
+                <h2 class="a">General</h2>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="music">
+                <h2 class="a">Music</h2>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="picture">
+                <h2 class="a">Picture</h2>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="video">
+                <h2 class="a">Video</h2>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="game">
+                <h2 class="a">Game</h2>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="secret">
+                <h2 class="a">Secret</h2>
+            </div>
+          </div>    
+  
+        </div>
+  </div>
+  
+  </div>
+  
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 text-center" id="">
+
+</div>
+</div>
+
+</div>

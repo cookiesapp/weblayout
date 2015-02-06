@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preferences editor - Cukqi</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="css/others.css" rel="stylesheet" media="screen">
+<link href="css/font-awesome.css" rel="stylesheet" media="screen">
+<link href="css/social-buttons.css" rel="stylesheet" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two|IM+Fell+Double+Pica' rel='stylesheet' type='text/css'>
+<!-- JavaScript plugins (requires jQuery) -->
+<!-- JavaScript plugins (requires jQuery) -->
+<script src="js/jquery-latest.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        $("#myNav").affix({
+
+            offset: { 
+
+                top: 190 
+
+            }
+
+        });
+
+    });
+
+    </script>
+
+</head>
+
+<body data-spy="scroll" data-target="#affix-nav">
+
+<div class="row"> <!-- khung dang kí dang nh?p -->
+
+
+</div>
+
+<div class="row"> <!-- thanh menu -->
+
+
+</div>
+
+<div class="container"> <!-- Nội dung 1 ở dây -->
+
+   
+    
+</div>
+
+<div class="container"> <!-- Nội dung 2 ở dây -->
+
+   
+    
+</div>
+
+<footer class="bs-docs-footer navbar-default" role="contentinfo"> <!-- footer -->
+  <div class="container">
+    
+
+
+    <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+    <p>Maintained by the <a href="https://github.com/twbs?tab=members">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
+    <p>Code licensed under <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">MIT</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+    <ul class="bs-docs-footer-links muted">
+      <li>Currently v3.2.0</li>
+      <li>·</li>
+     
+      <li>·</li>
+      <li><a href="../getting-started/#examples">Examples</a></li>
+      <li>·</li>
+      <li><a href="../2.3.2/">v2.3.2 docs</a></li>
+      <li>·</li>
+      <li><a href="../about/">About</a></li>
+      <li>·</li>
+      
+      <li>·</li>
+      <li><a href="http://blog.getbootstrap.com">Blog</a></li>
+      <li>·</li>
+      
+     
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>

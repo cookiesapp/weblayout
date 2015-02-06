@@ -1,0 +1,330 @@
+﻿body {
+
+ 
+  line-height: 1.428571429;
+  color: #333333;
+  //background: url('../bg.svg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  
+}
+
+.intro{
+  background: url('../blue.jpg') no-repeat center center fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+    
+}
+
+.navbar-nav > li > .dropdown-menu1 {
+    margin-top: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.navbar-right .dropdown-menu1 {
+    right: 0px;
+    left: auto;
+}
+.dropdown-menu1 {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 500px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    list-style: none outside none;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+}
+
+.dropdown-menu1.pull-right {
+  right: 0;
+  left: auto;
+}
+.dropdown-menu1 .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.dropdown-menu1 > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+.dropdown-menu1 > li > a:hover,
+.dropdown-menu1 > li > a:focus {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+}
+.dropdown-menu1 > .active > a,
+.dropdown-menu1 > .active > a:hover,
+.dropdown-menu1 > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #428bca;
+  outline: 0;
+}
+.dropdown-menu1 > .disabled > a,
+.dropdown-menu1 > .disabled > a:hover,
+.dropdown-menu1 > .disabled > a:focus {
+  color: #999;
+}
+.dropdown-menu1 > .disabled > a:hover,
+.dropdown-menu1 > .disabled > a:focus {
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.open > .dropdown-menu1 {
+  display: block;
+}
+.open > a {
+  outline: 0;
+}
+.dropdown-menu-right {
+  right: 0;
+  left: auto;
+}
+.dropdown-menu-left {
+  right: auto;
+  left: 0;
+}
+
+
+
+
+
+.signindiv{
+     /* Fallback for web browsers that doesn't support RGBa */
+background: rgb(255, 255, 255);
+/* RGBa with 0.6 opacity */
+background: rgba(255, 255, 255, 0.4);
+/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* For IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+
+}
+.navbar-default1 {
+     /* Fallback for web browsers that doesn't support RGBa */
+background: rgb(232, 232, 232);
+/* RGBa with 0.6 opacity */
+background: rgba(232, 232, 232, 0.8);
+/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* For IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+position: relative;
+    border-color: #E7E7E7;
+ }   
+    
+  .flex-video iframe, .flex-video object, .flex-video embed {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    }
+    
+    
+ .flex-video.widescreen {
+    padding-bottom: 57.25%;
+}
+.media:first-child {
+    margin-top: 0px;
+}
+.flex-video {
+    position: relative;
+    height: 0px;
+    margin-bottom: 16px;
+    padding-top: 25px;
+    overflow: hidden;
+    padding-bottom: 67.5%;
+    }
+  .jumbotron1 {
+  padding: 30px;
+  //margin-bottom: 30px;
+  color: inherit;
+  //background-color: #eee;
+}
+  .cloud{
+    
+    width:300px;
+    height:200px;
+    
+  }
+ .jumbotron1 h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron1 p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.container .jumbotron1 {
+  border-radius: 6px;
+}
+.jumbotron1 .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron1 {
+   // padding-top: 48px;
+    //padding-bottom: 48px;
+  }
+  
+  .container .jumbotron1 {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron1 h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+  }
+  
+  
+  
+  
+
+
+ul.affix {
+	position: fixed; 
+	top: 0px;
+	left: 62px;
+	width: 360px;
+}
+ul.affix-top {
+	position: static;
+}
+ul.affix-bottom {
+	position: absolute;
+}
+
+/* First level of nav */
+.sidenav {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top:    10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  
+}
+
+/* All levels of nav */
+.sidebar .nav > li > a {
+  display: block;
+  color: #716b7a;
+  padding: 5px 20px;
+}
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #e5e3e9;
+}
+.sidebar .nav > .active > a,
+.sidebar .nav > .active:hover > a,
+.sidebar .nav > .active:focus > a {
+  font-weight: bold;
+  color: #563d7c;
+  background-color: transparent;
+}
+
+/* Nav: second level */
+.sidebar .nav .nav {
+  margin-bottom: 8px;
+}
+.sidebar .nav .nav > li > a {
+  padding-top:    3px;
+  padding-bottom: 3px;
+  padding-left: 30px;
+  font-size: 90%;
+}
+#content {
+	margin-top:30px;
+	}
+
+
+.bs-docs-footer{
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-top:100px;
+	color:black;
+	text-align:center;
+	border-top:1px solid #e5e5e5
+}
+
+.bs-docs-footer-links{
+	padding-left:0;
+	margin-top:20px;
+	color:#999
+}
+
+.bs-docs-footer-links li{
+	display:inline;
+	padding:0 2px
+}
+
+.bs-docs-footer-links li:first-child{
+	padding-left:0
+}
+
+@media (min-width:768px){
+	.bs-docs-footer p{
+		margin-bottom:0
+	}
+
+}
+
+.bs-docs-social{
+	margin-bottom:20px;
+	text-align:center
+}
+
+.bs-docs-social-buttons{
+	display:inline-block;
+	padding-left:0;
+	margin-bottom:0;
+	list-style:none
+}
+
+.bs-docs-social-buttons li{
+	display:inline-block;
+	padding:5px 8px;
+	line-height:1
+}
+
+.bs-docs-social-buttons .twitter-follow-button{
+	width:225px!important
+}
+
+.bs-docs-social-buttons .twitter-share-button{
+	width:98px!important
+}
+
+.github-btn{
+	overflow:hidden;
+	border:0
+}
+
